@@ -1,0 +1,287 @@
+body{
+  background-image: url("https://i.pinimg.com/originals/e6/f7/d3/e6f7d34c80ef47899caaf3edb02e72c1.gif");
+  font-family: Cursive;
+}
+
+h1{
+  background: #008000;
+  color: #E5E5E5;
+  text-align: center;
+  font-size: 100px;
+  padding: 20px 10px;
+  border: 5px solid #1A0505;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+
+marquee{
+  background: #331F34;
+  color: #BCE1A2;
+  padding: 20px 10px;
+  border: 5px solid #8FFF00;
+  font-size: 50px;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  background: #766F77;
+  border: 10px solid #703E68;
+}
+
+.wrapper>div{
+  text-align: center;
+  padding: 20px;
+  background: #11EB3F;
+  font-size: 40px;
+}
+
+.robot{
+  grid-column: 1/3;
+  grid-row: 1;
+  border: 5px solid #526040;
+}
+
+.ardras{
+  grid-column: 3/4;
+  grid-row: 1/2;
+  border: 5px solid #7C91A0;
+}
+
+.meme{
+  grid-column: 1;
+  grid-row: 2/4;
+  border: 5px solid #6F2514;
+}
+
+.quote{
+  grid-column: 3;
+  grid-row: 2;
+  border: 5px solid #871055;
+}
+
+.song{
+  grid-column: 1/3;
+  grid-row: 5;
+  border: 5px solid #8FFF00;
+}
+
+.OS{
+  grid-column: 1;
+  grid-row: 4;
+  border: 5px solid #D1AEC2;
+}
+
+.kidding{
+  grid-column: 3;
+  grid-row: 3;
+  background: #766F77;
+}
+
+.cartoon{
+  grid-column: 3;
+  grid-row: 4;
+  border: 5px solid #A91740;
+}
+
+.animals{
+  grid-column: 3/4;
+  grid-row: 5;
+  border: 5px solid #A7A828;
+}
+
+.history{
+  grid-column: 1/2;
+  grid-row: 6;
+  border: 5px solid #44442F;
+}
+
+.cricket{
+  grid-column: 3/4;
+  grid-row: 6;
+  border: 5px solid #44442F;
+}
+
+.wrapper2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  background: #8E00FF;
+}
+
+.wrapper2>div{
+  text-align: center;
+  padding: 20px;
+  background: #72392E;
+  font-size: 40px;
+}
+
+.Fastfood{
+  grid-column: 1/2;
+  grid-row: 1;
+  border: 10px solid #DDC237;
+}
+
+.feluda{
+  grid-column: 1/2;
+  grid-row: 2;
+  border: 10px solid #DDC237;
+}
+
+.wrapper2a{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  background: #8E00FF;
+}
+
+.wrapper2a>div{
+  text-align: center;
+  padding: 20px;
+  background: #72392E;
+  font-size: 40px;
+}
+
+.film{
+  grid-column: 1;
+  grid-row: 3;
+  border: 10px solid #DDC237;
+}
+
+.sahitto{
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.inter{
+  grid-column: 1/4;
+  grid-row: 4;
+  border: 10px solid #DDC237;
+}
+
+.gadgets{
+  grid-column: 1;
+  grid-row: 5;
+  border: 10px solid #DDC237;
+}
+
+.space{
+  grid-column: 2;
+  grid-row: 5;
+  border: 10px solid #DDC237;
+}
+
+.video{
+  grid-column: 1;
+  grid-row: 6;
+  border: 10px solid #DDC237;
+}
+
+.math{
+  grid-column: 2;
+  grid-row: 6;
+  border: 10px solid #DDC237;
+}
+
+.drawing{
+  grid-column: 1/4;
+  grid-row: 7;
+  border: 10px solid #DDC237;
+}
+
+.note{
+  background: #AECEC9;
+}
+
+.wrapper3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  background: #931A1A;
+  border: 10px solid #6B7E24;
+}
+
+.wrapper3>div{
+  text-align: center;
+  padding: 20px;
+  background: #50326F;
+  font-size: 40px;
+  border: 6px solid #247E70;
+}
+
+.scientist{
+  grid-column: 1/4;
+}
+
+.games{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.scexperiment{
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.ai{
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.def{
+  text-align: Center;
+  font-size: 50px;
+  color: #DBB8B8;
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.quran{
+  grid-column: 1/3;
+  grid-row: 6;
+}
+
+.feedback{
+  padding: 30px;
+  background: #87AA15;
+  font-size: 30px;
+  border: 6px solid #247E70; 
+}
+
+.fed{
+  background: #BBD7D2;
+  text-align: center;
+  font-size: 40px;
+  border: 6px solid black;
+}
+
+footer{
+  background: #D7893D;
+  font-size: 30px;
+  border: 9px solid Yellow;
+  padding: 30px;
+}
+
+.f1{
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 50px;
+  border: 5px solid #405131;
+}
+
+.f2{
+  text-align: center;
+  background: blue;
+  color: yellow;
+  font-size: 40px;
+  border: 5px solid #405131;
+}
+
+}
